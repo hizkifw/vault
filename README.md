@@ -1,7 +1,7 @@
 # `vault`
 
-A tiny, serverless pastebin-like service built on Cloudflare Pages Functions
-and Workers KV.  
+A tiny, serverless pastebin-like service built on Cloudflare Pages Functions and
+Workers KV.
 
 Heavily inspired by [`LostLuma/starbin`](https://github.com/LostLuma/starbin)
 and [`Erisa/starbin-pages`](https://github.com/Erisa/starbin-pages).
@@ -26,6 +26,9 @@ Required environment variables:
 - `CACHE_TTL`
 - `DOCUMENT_KEY_SIZE`
 - `MAX_DOCUMENT_SIZE`
+
+Optional environment variables:
+
 - `SECRET_KEY`
 
 ## Usage
@@ -73,6 +76,7 @@ MIT License
 Copyright (c) 2019 - 2022 Lilly Rose Berner
 Copyright (c) 2022 Erisa A.
 Copyright (c) 2022 Martin Simon
+Copyright (c) 2023 Hizkia Felix
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
